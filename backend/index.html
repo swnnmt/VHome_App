@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Visual Gạch & Sơn</title>
+</head>
+<body style="font-family: sans-serif; max-width: 600px; margin: auto; padding: 20px;">
+  <h2>🎨 Visual Gạch & Sơn</h2>
+
+  <label>📷 Ảnh đầu vào:</label><br />
+  <input type="file" id="imageInput" accept="image/*" /><br /><br />
+
+  <label>🧱 Mẫu gạch (tùy chọn):</label><br />
+  <input type="file" id="tileInput" accept="image/*" /><br /><br />
+
+  <label>🎨 Mã màu sơn:</label>
+  <input type="color" id="paintCode" value="#8a5871" />
+  <span id="colorHex">#8a5871</span><br /><br />
+
+  <button id="detectBtn" onclick="handleDetect()">B1: Detect tường/sàn</button>
+  <button id="renderBtn" onclick="handleRender()">B2: Render ảnh kết quả</button>
+
+  <h3>Ảnh detect (vùng tường/sàn):</h3>
+  <canvas id="canvas" style="max-width: 100%; border: 1px solid #ccc;"></canvas>
+
+  <h3>Kết quả render:</h3>
+  <img id="resultImage" src="" alt="Kết quả" style="max-width: 100%; display: none;" />
+
+  <script>
+    let predictions = null;
+    let imageFile = null;
+
+    document.getElementById("imageInput").addEventListener("change", e => {
+      imageFile = e.target.files[0];
+    });
+
+    document.getElementById("paintCode").addEventListener("input", e => {
+      document.getElementById("colorHex").innerText = e.target.value;
+    });
+
+    async function handleDetect() {
+      if (!imageFile) return alert("Vui lòng chọn ảnh!");
+
+      const detectBtn = document.getElementById("detectBtn");
+      detectBtn.disabled = true;
+      detectBtn.innerText = "🔍 Đang detect...";
+
+      const formData = new FormData();
+      formData.append("image", imageFile);
+
+      try {
+        const res = await fetch("http://localhost:8001/detect", {
+          method: "POST",
+          body: formData,
+        });
+
+        const data = await res.json();
+        predictions = data.predictions;
+
+        const imageURL = URL.createObjectURL(imageFile);
+        const img = new Image();
+        img.onload = () => drawCanvas(img, predictions);
+        img.src = imageURL;
+
+        alert("✓ Phát hiện tường/sàn thành công!");
+      } catch (err) {
+        alert("Lỗi detect: " + err.message);
+      } finally {
+        detectBtn.disabled = false;
+        detectBtn.innerText = "B1: Detect tường/sàn";
+      }
+    }
+
+    function drawCanvas(img, predictions) {
+  const canvas = document.getElementById("canvas");
+  const ctx = canvas.getContext("2d");
+  canvas.width = img.width;
+  canvas.height = img.height;
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.drawImage(img, 0, 0);
+
+  predictions.forEach(pred => {
+    const color = pred.class === "wall" ? "rgba(255, 0, 0, 0.6)" : "rgba(0, 0, 255, 0.6)";
+    ctx.strokeStyle = color;
+    ctx.fillStyle = color;
+    ctx.lineWidth = 2;
+
+    if (pred.points) {
+      // Vẽ polygon
+      ctx.beginPath();
+      pred.points.forEach((p, i) => {
+        if (i === 0) ctx.moveTo(p.x, p.y);
+        else ctx.lineTo(p.x, p.y);
+      });
+      ctx.closePath();
+      ctx.stroke();
+
+      // Vẽ nhãn ở centroid (tính đơn giản)
+      const cx = pred.points.reduce((sum, p) => sum + p.x, 0) / pred.points.length;
+      const cy = pred.points.reduce((sum, p) => sum + p.y, 0) / pred.points.length;
+      ctx.font = "16px Arial";
+      ctx.fillText(`${pred.class} (${(pred.confidence * 100).toFixed(1)}%)`, cx - 40, cy);
+    } else {
+      // Vẽ bounding box
+      const { x, y, width, height } = pred;
+      ctx.strokeRect(x - width / 2, y - height / 2, width, height);
+      ctx.font = "16px Arial";
+      ctx.fillText(`${pred.class} (${(pred.confidence * 100).toFixed(1)}%)`, x - width / 2, y - height / 2 - 5);
+    }
+  });
+}
+
+
+    async function handleRender() {
+      if (!imageFile || !predictions) return alert("Vui lòng detect trước!");
+
+      const tileInput = document.getElementById("tileInput").files[0];
+      const paintColor = document.getElementById("paintCode").value;
+      const paintBlob = await createPaintBlob(paintColor);
+
+      const renderBtn = document.getElementById("renderBtn");
+      renderBtn.disabled = true;
+      renderBtn.innerText = "🎨 Đang render...";
+
+      const formData = new FormData();
+      formData.append("image", imageFile);
+      formData.append("wall_texture", paintBlob);
+      if (tileInput) formData.append("floor_texture", tileInput);
+      formData.append("predictions", JSON.stringify(predictions));
+
+      try {
+        const res = await fetch("http://localhost:8001/render_with_masks", {
+          method: "POST",
+          body: formData,
+        });
+
+        const blob = await res.blob();
+        const url = URL.createObjectURL(blob);
+        const img = document.getElementById("resultImage");
+        img.src = url;
+        img.style.display = "block";
+      } catch (err) {
+        alert("Lỗi render: " + err.message);
+      } finally {
+        renderBtn.disabled = false;
+        renderBtn.innerText = "B2: Render ảnh kết quả";
+      }
+    }
+
+    function createPaintBlob(hexColor) {
+      return new Promise((resolve) => {
+        const canvas = document.createElement("canvas");
+        canvas.width = 50;
+        canvas.height = 50;
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = hexColor;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        canvas.toBlob(blob => {
+          resolve(new File([blob], "paint.jpg", { type: "image/jpeg" }));
+        }, "image/jpeg");
+      });
+    }
+  </script>
+</body>
+</html>

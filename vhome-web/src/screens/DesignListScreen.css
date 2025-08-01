@@ -1,0 +1,135 @@
+/* Container tổng */
+.container {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Swiper Wrapper */
+.design-list-swiper {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Slide căn giữa */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+/* Card thiết kế */
+.card {
+  width: 100%;
+  max-width: 420px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Tiêu đề */
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #444;
+  text-align: center;
+}
+
+/* Label */
+.label {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #777;
+}
+
+/* Hình ảnh */
+.image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Text info */
+.text {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.date {
+  font-size: 12px;
+  color: #666;
+  margin-top: 8px;
+}
+
+/* Center loading/error */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.errorText {
+  color: red;
+  font-size: 16px;
+}
+
+/* Loader xoay */
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #007AFF;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Nút Tiếp tục */
+.continueButton {
+  background-color: #ffc107;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.continueButton:hover {
+  background-color: #e0a800;
+}
+
+/* Nút Xóa */
+.deleteButton {
+  background-color: #dc3545;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+  background-color: #bd2130;
+}

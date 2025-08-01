@@ -1,0 +1,106 @@
+.welcome-background {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.welcome-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 32px 24px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  animation: fadeInUp 0.6s ease-in-out;
+}
+
+.welcome-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 28px;
+}
+
+.welcome-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signup-button {
+  padding: 14px;
+  font-size: 16px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #4338ca;
+}
+
+.login-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.login-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.login-link {
+  background: none;
+  border: none;
+  color: #4f46e5;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.login-link:hover {
+  color: #3730a3;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ✅ Responsive cho máy tính bảng và máy tính để bàn */
+@media (min-width: 768px) {
+  .welcome-container {
+    padding: 48px 36px;
+    max-width: 480px;
+  }
+
+  .welcome-title {
+    font-size: 36px;
+  }
+
+  .signup-button {
+    font-size: 18px;
+  }
+
+  .login-text,
+  .login-link {
+    font-size: 16px;
+  }
+}

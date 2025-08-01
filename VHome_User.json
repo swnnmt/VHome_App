@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "6852f848451c3847e57049b9"
+  },
+  "name": "Nguyen Thang",
+  "email": "thang@gmail.com",
+  "password": "$2b$10$iSe1qK1yU7EGUXes3UxYIujEqX8TOyllBGdfzxIuVH7xF/9VC31im",
+  "balance": 50000,
+  "count": 13,
+  "createdAt": {
+    "$date": "2025-06-18T17:32:56.148Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6852fa44451c3847e57049c0"
+  },
+  "name": "Nguyen Hong Thang",
+  "email": "nht@gmail.com",
+  "password": "$2b$10$swdYckpp.jeVQcoTFzPPeeyLatqg00DezFzDUhBvY4wmEgrblRc3a",
+  "balance": 50000,
+  "count": 10,
+  "createdAt": {
+    "$date": "2025-06-18T17:41:24.697Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6859c61bc91dbad6855895e9"
+  },
+  "name": "Mac tuan son",
+  "email": "son@gmail.com",
+  "password": "$2b$10$w4Do7bp0Ozn3r4dXoTtwNeYtBrjzBqjtUHx7snI6/mqZ8Juk5n1MC",
+  "balance": 45000,
+  "count": 9,
+  "createdAt": {
+    "$date": "2025-06-23T21:24:43.717Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685ea298bb2affc54a05913d"
+  },
+  "name": "Tuan Son",
+  "email": "swwn@gmail.com",
+  "password": "$2b$10$OYTC0FYi0XlBttyzE64qN.H01SLysPi2tsFQ8EkoovqUXSnqu20MC",
+  "balance": 94000,
+  "count": 18,
+  "createdAt": {
+    "$date": "2025-06-27T13:54:32.309Z"
+  },
+  "__v": 0
+}]

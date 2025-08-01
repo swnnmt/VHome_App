@@ -1,0 +1,50 @@
+.topup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.topup-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.topup-qr {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+.topup-price {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.topup-note {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 30px;
+  max-width: 400px;
+}
+
+.topup-button {
+  background-color: #0d47a1;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.topup-button:hover {
+  background-color: #08306b;
+}

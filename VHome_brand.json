@@ -1,0 +1,432 @@
+[{
+  "_id": {
+    "$oid": "6840d41a8263b2e40669a464"
+  },
+  "name": "JONUX",
+  "banner": "/banner_brand/brand1.jpeg",
+  "paints": [
+    {
+      "colorCode": "#FFFFFF",
+      "price": 110000,
+      "_id": {
+        "$oid": "6840d41a8263b2e40669a465"
+      }
+    },
+    {
+      "colorCode": "#000000",
+      "price": 100000,
+      "_id": {
+        "$oid": "6840d41a8263b2e40669a466"
+      }
+    },
+    {
+      "colorCode": "#7c796e",
+      "price": 150000,
+      "_id": {
+        "$oid": "68487a60fee066c497a55ba0"
+      }
+    },
+    {
+      "colorCode": "#7b7a79",
+      "price": 150000,
+      "_id": {
+        "$oid": "68487a99fee066c497a55bb0"
+      }
+    },
+    {
+      "colorCode": "#7b5953",
+      "price": 150000,
+      "_id": {
+        "$oid": "68487aadfee066c497a55bc4"
+      }
+    },
+    {
+      "colorCode": "#7c796e",
+      "price": 150000,
+      "_id": {
+        "$oid": "68487ac2fee066c497a55bdc"
+      }
+    },
+    {
+      "colorCode": "#7c877c",
+      "price": 150000,
+      "_id": {
+        "$oid": "68487ad3fee066c497a55bf8"
+      }
+    }
+  ],
+  "tiles": [
+    {
+      "image": "/tiles/gach-viglacera-vu308.jpg",
+      "price": 250000,
+      "_id": {
+        "$oid": "6840d41a8263b2e40669a467"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vu307.jpg",
+      "price": 270000,
+      "_id": {
+        "$oid": "6840d41a8263b2e40669a468"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-voc-h04.jpg",
+      "price": 200000,
+      "_id": {
+        "$oid": "68487a60fee066c497a55b9f"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vu302.jpg",
+      "price": 200000,
+      "_id": {
+        "$oid": "68487a99fee066c497a55baf"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vu303.jpg",
+      "price": 200000,
+      "_id": {
+        "$oid": "68487aadfee066c497a55bc3"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vu304.jpg",
+      "price": 200000,
+      "_id": {
+        "$oid": "68487ac2fee066c497a55bdb"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vu305.jpg",
+      "price": 200000,
+      "_id": {
+        "$oid": "68487ad3fee066c497a55bf7"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-06-04T23:17:46.027Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T18:34:59.474Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6840d7b94f0e0023fa54df9b"
+  },
+  "name": "DULUX",
+  "banner": "/banner_brand/brand2.jpeg",
+  "paints": [
+    {
+      "colorCode": "#FFFFFF",
+      "price": 100000,
+      "_id": {
+        "$oid": "6840d7b94f0e0023fa54df9c"
+      }
+    },
+    {
+      "colorCode": "#000000",
+      "price": 110000,
+      "_id": {
+        "$oid": "6840d7b94f0e0023fa54df9d"
+      }
+    },
+    {
+      "colorCode": "#7d6668",
+      "price": 100000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e9956"
+      }
+    },
+    {
+      "colorCode": "#7e6a62",
+      "price": 110000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e9957"
+      }
+    },
+    {
+      "colorCode": "#7f5c47",
+      "price": 150000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e9958"
+      }
+    },
+    {
+      "colorCode": "#7f644c",
+      "price": 90000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e9959"
+      }
+    },
+    {
+      "colorCode": "#7f7160",
+      "price": 140000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e995a"
+      }
+    },
+    {
+      "colorCode": "#7f8985",
+      "price": 120000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e995b"
+      }
+    },
+    {
+      "colorCode": "#8a7e74",
+      "price": 100000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e995c"
+      }
+    },
+    {
+      "colorCode": "#8a8f81",
+      "price": 120000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e995d"
+      }
+    }
+  ],
+  "tiles": [
+    {
+      "image": "https://example.com/tile5.jpg",
+      "price": 250000,
+      "_id": {
+        "$oid": "6840d7b94f0e0023fa54df9e"
+      }
+    },
+    {
+      "image": "https://example.com/tile6.jpg",
+      "price": 270000,
+      "_id": {
+        "$oid": "6840d7b94f0e0023fa54df9f"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vu306.jpg",
+      "price": 250000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e994e"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vu312.jpg",
+      "price": 230000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e994f"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vv-gp6601.jpg",
+      "price": 200000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e9950"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vv-gp6603.jpg",
+      "price": 220000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e9951"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vv-gp6604.jpg",
+      "price": 240000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e9952"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vv-gp6605.jpg",
+      "price": 230000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e9953"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vv-gp6607.jpg",
+      "price": 250000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e9954"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vvgp8801.jpg",
+      "price": 250000,
+      "_id": {
+        "$oid": "68490012b4fdde00a15e9955"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-06-04T23:33:13.627Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T04:03:30.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849061c0e34949392826e77"
+  },
+  "name": "INFOR",
+  "banner": "/banner_brand/brand3.jpg",
+  "paints": [
+    {
+      "colorCode": "#8a5871",
+      "price": 120000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e78"
+      }
+    },
+    {
+      "colorCode": "#8a8774",
+      "price": 140000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e79"
+      }
+    },
+    {
+      "colorCode": "#8b9b99",
+      "price": 150000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e7a"
+      }
+    },
+    {
+      "colorCode": "#8b7467",
+      "price": 160000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e7b"
+      }
+    },
+    {
+      "colorCode": "#8c9e9c",
+      "price": 130000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e7c"
+      }
+    },
+    {
+      "colorCode": "#8c867e",
+      "price": 100000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e7d"
+      }
+    },
+    {
+      "colorCode": "#8c9893",
+      "price": 120000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e7e"
+      }
+    },
+    {
+      "colorCode": "#8d9b8d",
+      "price": 120000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e7f"
+      }
+    },
+    {
+      "colorCode": "#8d908f",
+      "price": 120000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e80"
+      }
+    },
+    {
+      "colorCode": "#8e8687",
+      "price": 110000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e81"
+      }
+    }
+  ],
+  "tiles": [
+    {
+      "image": "/tiles/gach-viglacera-vvgp8803.jpg",
+      "price": 180000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e82"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vvgp8805.jpg",
+      "price": 190000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e83"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-vvgp8806.jpg",
+      "price": 170000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e84"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-sh1-gp4801.jpg",
+      "price": 280000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e85"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-sh1-gp4801a.jpg",
+      "price": 220000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e86"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-sh1-gp8801.jpg",
+      "price": 200000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e87"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-sh2-m121205.jpg",
+      "price": 230000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e88"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-sh2-gp4801.jpg",
+      "price": 240000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e89"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-sh2-gp8802.jpg",
+      "price": 300000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e8a"
+      }
+    },
+    {
+      "image": "/tiles/gach-viglacera-sh2-gp8803.jpg",
+      "price": 190000,
+      "_id": {
+        "$oid": "6849061c0e34949392826e8b"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-06-11T04:29:16.908Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T04:29:16.908Z"
+  },
+  "__v": 0
+}]

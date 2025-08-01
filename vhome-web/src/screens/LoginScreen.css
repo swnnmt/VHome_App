@@ -1,0 +1,120 @@
+/* LoginScreen.css */
+.login-background {
+  background: url('../assest/images/bg_login.webp') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-inner {
+  background-color: #ffffffdd;
+  padding: 32px;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.login-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+}
+
+.login-back {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-left: 4px;
+}
+
+.login-input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.login-password-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.toggle-password {
+  margin-left: 8px;
+  padding: 4px 12px;
+  border: none;
+  background: #eee;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-forgot {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.forgot-link {
+  background: none;
+  border: none;
+  color: #3b82f6;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-or {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #4b5563;
+}
+
+.login-socials {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.login-social-button img {
+  width: 40px;
+  height: 40px;
+}
+
+.login-signup {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.login-signup-link {
+  background: none;
+  border: none;
+  color: #3b82f6;
+  font-weight: 600;
+  cursor: pointer;
+}

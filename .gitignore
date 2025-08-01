@@ -1,0 +1,16 @@
+# Android build & native libs
+Client/android/app/build/
+Client/android/build/
+*.so
+*.apk
+*.keystore
+
+# Node modules
+Client/node_modules/
+node_modules/
+
+# OS & Editor
+.DS_Store
+*.log
+.idea/
+.vscode/

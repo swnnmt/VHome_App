@@ -1,0 +1,84 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal {
+  background: #fff;
+  width: 90%;
+  max-width: 900px;
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.packageRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.packageBox {
+  flex: 1 1 240px;
+  padding: 16px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.packageBox:hover {
+  transform: scale(1.05);
+}
+
+.packageTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.packagePrice {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.packageStorage {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featureItem {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.cancelButton {
+  margin-top: 16px;
+  background-color: #eee;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
