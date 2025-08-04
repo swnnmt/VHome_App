@@ -33,24 +33,24 @@ Xây dựng một nền tảng hỗ trợ người không chuyên có thể hìn
 
 ## 📸 Minh họa tính năng
 
-![Ảnh gốc](./assets/ảnh%20gốc.jpg)  
-![Ảnh sau khi thiết kế](./assets/Ảnh%20sau%20thiết%20kế.jpg)
+<img src="./assets/ảnh%20gốc.jpg" width="300" />  
+<img src="./assets/Ảnh%20sau%20thiết%20kế.jpg" width="300" />
 
 ---
 
 ## 📱 Các màn hình của ứng dụng
 
-![Welcome](./assets/1.%20Màn%20hình%20welcome.jpg)  
-![Đăng ký](./assets/2.%20Màn%20hình%20đăng%20ký.jpg)  
-![Đăng nhập](./assets/3.%20Màn%20hình%20đăng%20nhập.jpg)  
-![Quên mật khẩu](./assets/4.%20Quên%20mật%20khẩu.jpg)  
-![Thông tin người dùng](./assets/5.%20Thông%20tin%20người%20dùng.jpg)  
-![Thiết kế theo mẫu](./assets/6.%20Thiết%20kế%20theo%20mẫu.jpg)  
-![Thiết kế theo mẫu - hoàn thành](./assets/6.%20Thiết%20kế%20theo%20mẫu%20-%20hoàn%20thành.jpg)  
-![Thiết kế tự do](./assets/7.%20Thiết%20kế%20tự%20do.jpg)  
-![Thiết kế tự do - hoàn thành](./assets/7.%20Thiết%20kế%20tự%20do%20-%20hoàn%20thành.jpg)  
-![Xem lại thiết kế](./assets/8.%20Xem%20lại%20thiết%20kế%20đã%20lưu.jpg)  
-![AI tư vấn](./assets/9.%20AI%20tư%20vấn%20-%20AI%20tư%20vấn.jpg)
+<img src="./assets/1.%20Màn%20hình%20welcome.jpg" width="300" />  
+<img src="./assets/2.%20Màn%20hình%20đăng%20ký.jpg" width="300" />  
+<img src="./assets/3.%20Màn%20hình%20đăng%20nhập.jpg" width="300" />  
+<img src="./assets/4.%20Quên%20mật%20khẩu.jpg" width="300" />  
+<img src="./assets/5.%20Thông%20tin%20người%20dùng.jpg" width="300" />  
+<img src="./assets/6.%20Thiết%20kế%20theo%20mẫu%20hoàn%20thành.jpg" width="300" />  
+<img src="./assets/6.%20Thiết%20kế%20theo%20mẫu.jpg" width="300" />  
+<img src="./assets/7.%20Thiết%20kế%20tự%20do%20hoàn%20thành.jpg" width="300" />  
+<img src="./assets/7.%20Thiết%20kế%20tự%20do.jpg" width="300" />  
+<img src="./assets/8.%20Xem%20lại%20thiết%20kế%20đã%20lưu.jpg" width="300" />  
+<img src="./assets/9.%20AI%20tư%20vấn.jpg" width="300" />
 
 
 
