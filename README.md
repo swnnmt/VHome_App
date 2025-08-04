@@ -33,24 +33,48 @@ Xây dựng một nền tảng hỗ trợ người không chuyên có thể hìn
 
 ## 📸 Minh họa tính năng
 
+**Ảnh gốc do người dùng tải lên**  
 <img src="./assets/ảnh%20gốc.jpg" width="300" />  
-<img src="./assets/Ảnh%20sau%20thiết%20kế.jpg" width="300" />
+
+**Ảnh sau khi được AI xử lý và áp dụng thiết kế**  
+<img src="./assets/Ảnh%20sau%20thiết%20kế.jpg" width="300" />  
 
 ---
 
 ## 📱 Các màn hình của ứng dụng
 
+**1. Màn hình Welcome (chào mừng)**  
 <img src="./assets/1.%20Màn%20hình%20welcome.jpg" width="300" />  
+
+**2. Màn hình Đăng ký tài khoản**  
 <img src="./assets/2.%20Màn%20hình%20đăng%20ký.jpg" width="300" />  
+
+**3. Màn hình Đăng nhập**  
 <img src="./assets/3.%20Màn%20hình%20đăng%20nhập.jpg" width="300" />  
+
+**4. Màn hình Quên mật khẩu**  
 <img src="./assets/4.%20Quên%20mật%20khẩu.jpg" width="300" />  
+
+**5. Màn hình Thông tin người dùng**  
 <img src="./assets/5.%20Thông%20tin%20người%20dùng.jpg" width="300" />  
-<img src="./assets/6.%20Thiết%20kế%20theo%20mẫu%20hoàn%20thành.jpg" width="300" />  
+
+**6. Màn hình Thiết kế theo mẫu (chọn mẫu)**  
 <img src="./assets/6.%20Thiết%20kế%20theo%20mẫu.jpg" width="300" />  
+
+**6. Màn hình Thiết kế theo mẫu (hoàn thành)**  
+<img src="./assets/6.%20Thiết%20kế%20theo%20mẫu%20hoàn%20thành.jpg" width="300" />  
+
+**7. Màn hình Thiết kế tự do (chưa hoàn thành)**  
+<img src="./assets/7.%20Thiết%20kế%20tự%20do.jpg" width="300" /> 
+
+**7. Màn hình Thiết kế tự do (hoàn thành)**  
 <img src="./assets/7.%20Thiết%20kế%20tự%20do%20hoàn%20thành.jpg" width="300" />  
-<img src="./assets/7.%20Thiết%20kế%20tự%20do.jpg" width="300" />  
+
+**8. Màn hình Xem lại các thiết kế đã lưu**  
 <img src="./assets/8.%20Xem%20lại%20thiết%20kế%20đã%20lưu.jpg" width="300" />  
-<img src="./assets/9.%20AI%20tư%20vấn.jpg" width="300" />
+
+**9. Màn hình AI tư vấn nội thất**  
+<img src="./assets/9.%20AI%20tư%20vấn.jpg" width="300" />  
 
 
 
