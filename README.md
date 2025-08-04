@@ -23,33 +23,35 @@ Xây dựng một nền tảng hỗ trợ người không chuyên có thể hìn
 
 ## 🛠️ Công nghệ sử dụng
 
-| Thành phần         | Công nghệ                                      |
-
-| 💡 AI & Vision    |Roboflow (YOLOv8), OpenCV, GPT-4o, FastAPI       |
-| 📱 Mobile Frontend| React Native (UI, hình ảnh, preview)            |
-| 🧠 AI Backend     | FastAPI (Python) – xử lý ảnh và tư vấn          |
-| 🌐 Main Backend   | Node.js (Express) – quản lý người dùng, dịch vụ |
-| ☁️ DevOps         | Ubuntu 22.04 VPS, Nginx, PM2, MongoDB           |
+-💡 AI & Vision :Roboflow (YOLOv8), OpenCV, GPT-4o, FastAPI 
+- 📱 Mobile Frontend: React Native (UI, hình ảnh, preview) 
+- 🧠 AI Backend: FastAPI (Python) – xử lý ảnh và tư vấn
+- 🌐 Main Backend: Node.js (Express) – quản lý người dùng, dịch vụ
+- ☁️ DevOps :Ubuntu 22.04 VPS, Nginx, PM2, MongoDB
  
 ---
 
-## 📷 Minh họa tính năng
+## 📸 Minh họa tính năng
 
-![Ảnh gốc](./assets/ảnh gốc.jpg)
-![Ảnh sau khi thiết kế](./assets/Ảnh sau thiết kế.jpg)
+![Ảnh gốc](./assets/ảnh%20gốc.jpg)  
+![Ảnh sau khi thiết kế](./assets/Ảnh%20sau%20thiết%20kế.jpg)
 
-## 📷 Các màn hình của ứng dụng
-![Welcome](./assets/1. Màn hình welcome.jpg)
-![Đăng kí](./assets/2. Màn hình đăng ký.jpg)
-![Đăng nhập](./assets/3. Màn hình đăng nhập.jpg)
-![Quên mật khẩu](./assets/4. Quên mật khẩu.jpg)
-![Thông tin người dùng](./assets/5. Thông tin người dùng.jpg)
-![Thiết kế theo mẫu](./assets/6. Thiết kế theo mẫu.jpg)
-![Thiết kế theo mẫu -hoàn thành](./assets/6. Thiết kế theo mẫu - hoàn thành_.jpg)
-![Thiết kế tự do](./assets/7. Thiết kế tự do_.jpg)
-![Thiết kế tự do -hoàn thành](./assets/7. Thiết kế tự do - hoàn thành.jpg)
-![Xem lại thiết kế](./assets/8. Xem lại thiết kế đã lưu.jpg)
-![Ai tư vấn](./assets/9. AI tư vấn_. AI tư vấn.jpg)
+---
+
+## 📱 Các màn hình của ứng dụng
+
+![Welcome](./assets/1.%20Màn%20hình%20welcome.jpg)  
+![Đăng ký](./assets/2.%20Màn%20hình%20đăng%20ký.jpg)  
+![Đăng nhập](./assets/3.%20Màn%20hình%20đăng%20nhập.jpg)  
+![Quên mật khẩu](./assets/4.%20Quên%20mật%20khẩu.jpg)  
+![Thông tin người dùng](./assets/5.%20Thông%20tin%20người%20dùng.jpg)  
+![Thiết kế theo mẫu](./assets/6.%20Thiết%20kế%20theo%20mẫu.jpg)  
+![Thiết kế theo mẫu - hoàn thành](./assets/6.%20Thiết%20kế%20theo%20mẫu%20-%20hoàn%20thành.jpg)  
+![Thiết kế tự do](./assets/7.%20Thiết%20kế%20tự%20do.jpg)  
+![Thiết kế tự do - hoàn thành](./assets/7.%20Thiết%20kế%20tự%20do%20-%20hoàn%20thành.jpg)  
+![Xem lại thiết kế](./assets/8.%20Xem%20lại%20thiết%20kế%20đã%20lưu.jpg)  
+![AI tư vấn](./assets/9.%20AI%20tư%20vấn%20-%20AI%20tư%20vấn.jpg)
+
 
 
 ---
